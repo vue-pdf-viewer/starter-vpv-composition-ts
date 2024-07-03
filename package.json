@@ -1,5 +1,5 @@
 {
-  "name": "starter-vpv-compostion-ts",
+  "name": "starter-vpv-composition-ts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vpv/viewer": "link:@vpv/viewer",
     "vue": "^3.4.29"
   },
   "devDependencies": {
