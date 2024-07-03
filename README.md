@@ -86,8 +86,12 @@ Once the example project is running, you can explore the source code to see how 
 
 ## Examples
 
-For more detailed examples and usage scenarios, please refer to the `src/App.vue` file in this repository. You can find various example of how to use the VPV component in different configuration.
+For more detailed examples and usage scenarios, please refer to the `src/App.vue` file in this repository. You can find various example of how to use the VPV component in the following configurations:
+ - Default Toolbar
+ - Without Toolbar
+ - Mobile View
 
+If you want to find out more configurations. Please check the [documentation](https://docs-vue-pdf-viewer.logicspark.com) site.
 ---
 
 Thank you for using VPV! We hope this toolkit helps you build amazing Vue 3 applications with VPV and the composition API. If you have any questions or need further assistance, feel free to open an issue or reach out to us. Happy coding!
