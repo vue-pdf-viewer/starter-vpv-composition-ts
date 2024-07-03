@@ -8,8 +8,6 @@ Welcome to the VPV starter toolkit! This repository provides a comprehensive gui
   - [Project Setup](#project-setup)
   - [Running the Example Project](#running-the-example-project)
 - [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -92,6 +90,7 @@ For more detailed examples and usage scenarios, please refer to the `src/App.vue
  - Mobile View
 
 If you want to find out more configurations. Please check the [documentation](https://docs-vue-pdf-viewer.logicspark.com) site.
+
 ---
 
 Thank you for using VPV! We hope this toolkit helps you build amazing Vue 3 applications with VPV and the composition API. If you have any questions or need further assistance, feel free to open an issue or reach out to us. Happy coding!
