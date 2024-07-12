@@ -1,6 +1,7 @@
 <script setup lang="ts">
-  import { VPdfViewer, type ToolbarOptions } from '@vpv/viewer';
+  import { VPdfViewer, type ToolbarOptions, useLicense } from '@vue-pdf-viewer/viewer';
   const toolbarOptions: Partial<ToolbarOptions> | false = false
+  useLicense({ licenseKey: 'your-license-key' })
 </script>
 
 <template>
@@ -33,7 +34,7 @@
   }
 
   .pdf-viewer-wrapper-mobile {
-    width: 768px;
+    width: 468px;
     height: 700px;
     margin: 0 auto;
   }

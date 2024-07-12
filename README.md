@@ -68,7 +68,7 @@ Once the example project is running, you can explore the source code to see how 
 
     ```typescript
     <script setup lang="ts">
-      import { VPdfViewer } from '@vpv/viewer';
+      import { VPdfViewer } from '@vue-pdf-viewer/viewer';
     </script>
     ```
 

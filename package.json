@@ -9,13 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vpv/viewer": "link:@vpv/viewer",
-    "vue": "^3.4.29"
+    "@vue-pdf-viewer/viewer": "latest",
+    "vue": "^3.4.31"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
-    "typescript": "^5.2.2",
-    "vite": "^5.3.1",
-    "vue-tsc": "^2.0.21"
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vue-tsc": "^2.0.26"
+  },
+  "pnpm": {
+    "overrides": {
+      "pdfjs-dist": "3.11.174"
+    }
   }
 }
