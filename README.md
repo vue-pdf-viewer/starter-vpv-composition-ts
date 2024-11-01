@@ -14,7 +14,7 @@ Welcome to the Vue PDF Viewer (VPV) starter toolkit! This repository provides a 
 To get started, please clone this repo to your local machine and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/starter-vpv-composition-ts.git
+git clone https://github.com/vue-pdf-viewer/starter-vpv-composition-ts.git
 cd starter-vpv-composition-ts
 npm install
 ```
@@ -26,7 +26,7 @@ npm install
 1. **Clone the Repository**: If you haven't already, clone the repository and navigate into the project directory.
 
     ```bash
-    git clone https://github.com/your-username/starter-vpv-composition-ts.git
+    git clone https://github.com/vue-pdf-viewer/starter-vpv-composition-ts.git
     cd starter-vpv-composition-ts
     ```
 
