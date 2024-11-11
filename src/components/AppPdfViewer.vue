@@ -17,7 +17,7 @@
 	const viewerRef = ref<InstanceType<typeof VPdfViewer> | null>(null);
 
 	watch(viewerRef, (newVal) => {
-		console.log("viewerRef", newVal);
+		console.log("These are VPV instance properties", Object.keys(newVal));
 	});
 </script>
 <template>
