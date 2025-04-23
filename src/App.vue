@@ -1,10 +1,20 @@
 <script setup lang="ts">
-	import { VPdfViewer, type ToolbarOptions } from "@vue-pdf-viewer/viewer";
+	import { onBeforeMount } from "vue";
+	import {
+		VPdfViewer,
+		type ToolbarOptions,
+		useLicense,
+	} from "@vue-pdf-viewer/viewer";
 	import AppPdfViewer from "./components/AppPdfViewer.vue";
+
 	const toolbarOptions: Partial<ToolbarOptions> | false = false;
 
 	const pdfSrc =
 		"https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf";
+
+	onBeforeMount(() => {
+		useLicense("YOUR_LICENSE_KEY");
+	});
 </script>
 
 <template>

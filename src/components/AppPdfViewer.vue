@@ -1,6 +1,6 @@
 <script setup lang="ts">
-	import { VPdfViewer, VPVBaseProps, useLicense } from "@vue-pdf-viewer/viewer";
-	import { ref, watch, onBeforeMount } from "vue";
+	import { VPdfViewer, VPVBaseProps } from "@vue-pdf-viewer/viewer";
+	import { ref, watch } from "vue";
 
 	const props = defineProps({
 		...VPVBaseProps,
@@ -10,14 +10,12 @@
 		},
 	} as const);
 
-	onBeforeMount(() => {
-		useLicense({ licenseKey: "your-license-key" });
-	});
-
 	const viewerRef = ref<InstanceType<typeof VPdfViewer> | null>(null);
 
 	watch(viewerRef, (newVal) => {
-		console.log("These are VPV instance properties", Object.keys(newVal));
+		if (newVal) {
+			console.log("These are VPV instance properties", Object.keys(newVal));
+		}
 	});
 </script>
 <template>
